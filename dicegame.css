@@ -1,0 +1,25 @@
+#homepage{
+	background-image:url("reddice.jpg");
+	height:100%;
+	background-repeat:no-repeat;
+	background-size: cover;	
+}
+#gameName{
+	font-size:100px;
+	text-align: center;
+	color:white;
+	text-shadow:4px 4px red;
+}
+#gameDescription{
+	font-size:18px;
+	text-align:center;
+	color:white;
+}
+#die4{
+	background:rgba(,,,.6);
+}
+.container{
+	margin-top:40px;
+	color:white;
+	text-align:center;
+}

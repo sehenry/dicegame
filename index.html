@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dice Game</title>
+	<title>Dice</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="dicegame.css">
 </head>
-<body>
+<body id="homepage">
+  <h1 id="gameName">
+    Splunkle!
+  </h1>
+  <h2 id="gameDescription">
+    Use your money wisely to beat your opponent in a unique game of dice!
+    <br>Get the maximum roll on any dice, and receive a FREE roll!
+    <br>The bigger the dice, the higher you pay, but BEWARE! A 20 sided dice can still give you a 1!
+  </h2>
+  <h3 id="status"></h3>
+  <div class="container">
+  <div class="row align-items-center">
+    <div id="die4", class="col">
+      4 sided dice
+      <button onclick="rollDice()">Roll Dice $5</button>
+    </div>
+    <div id="die6" class="col">
+      6 sided dice
+      <button onclick="rollDice()">Roll Dice $6</button>
+    </div>
+    <div id="die8" class="col">
+      8 sided dice
+      <button onclick="rollDice()">Roll Dice $7</button>
+    </div>
+    <div id="die10" class="col">
+    	10 sided dice
+      <button onclick="rollDice()">Roll Dice $8</button>
+    </div>
+    <div id="die12" class="col">
+    	12 sided dice
+      <button onclick="rollDice()">Roll Dice $9</button>
+    </div>
+    <div id="die20" class="col">
+    	20 sided dice
+      <button onclick="rollDice()">Roll Dice $13</button>
+    </div>
+
+</div>    	
+</div>
+
+
 	<script src = "dicegame.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
