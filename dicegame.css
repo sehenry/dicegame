@@ -11,15 +11,26 @@
 	text-shadow:4px 4px red;
 }
 #gameDescription{
-	font-size:18px;
+	font-size:20px;
 	text-align:center;
 	color:white;
+	margin-top:25px;
 }
-#die4{
-	background:rgba(,,,.6);
+.freeRoll{
+	font-size:14px;
 }
+
+
 .container{
-	margin-top:40px;
+	margin-top:60px;
+	font-size:25px;
 	color:white;
 	text-align:center;
+}
+
+.col-sm-6{
+	text-align:center;
+	color:white;
+	font-size:40px;
+	margin-top:140px;
 }
